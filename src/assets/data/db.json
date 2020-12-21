@@ -1,0 +1,79 @@
+{
+  "products": [
+    {
+      "id": 4,
+      "categoryId": 2,
+      "productName": "tshirt",
+      "description": "production description here",
+      "rating": "5",
+      "price": "120",
+      "productImg": "assets/img4.jpeg",
+      "isAvailable": true,
+      "color": "red",
+      "reviews": "10"
+    },
+    {
+      "categoryId": 2,
+      "productName": "tshirt",
+      "description": "production description here",
+      "rating": "",
+      "price": "1200",
+      "productImg": "assets/img4.jpeg",
+      "isAvailable": 1,
+      "color": "red",
+      "reviews": "",
+      "id": 6
+    },
+    {
+      "id": 14,
+      "categoryId": "2",
+      "description": "new with img",
+      "rating": "",
+      "price": "1000",
+      "productImg": "assets/img2.jpeg",
+      "isAvailable": 1,
+      "color": "green"
+    },
+    {
+      "categoryId": "2",
+      "productName": "jeans",
+      "description": "pant",
+      "rating": "",
+      "price": "1000",
+      "productImg": "assets/pant.jpeg",
+      "isAvailable": 1,
+      "color": "blue",
+      "reviews": "",
+      "id": "15"
+    },
+    {
+      "id": "18",
+      "categoryId": "2",
+      "productName": "jeans",
+      "description": "mn",
+      "rating": "2",
+      "price": "900",
+      "productImg": "assets/pant.jpeg",
+      "isAvailable": 1,
+      "color": "blue",
+      "reviews": "3"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "categoryName": "pents"
+    },
+    {
+      "id": 2,
+      "categoryName": "tshirts"
+    },
+    {
+      "id": 3,
+      "categoryName": "checkshirt"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

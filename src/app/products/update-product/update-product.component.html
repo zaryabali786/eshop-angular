@@ -1,0 +1,79 @@
+<form  (submit)="updateProduct(updateProductForm)" #updateProductForm="ngForm" > 
+    <div class="form-row">
+      <div class="col-md-6 mb-3">
+        <label for="validationDefault01">Product name</label>
+        <input type="text" class="form-control" id="validationDefault01" value="" [(ngModel)]="productDetails.productName" required name="productName" ngModel>
+      </div>
+      <div class="col-md-6 mb-3">
+        <label for="validationDefault02"> Category ID</label>
+        <input type="text" class="form-control" id="validationDefault02" value=""[(ngModel)]="productDetails.categoryId" required  name="categoryId" ngModel>
+      </div>
+    
+    </div>
+    <div class="form-row">
+      <div class="col-md-6 mb-3">
+        <label for="validationDefault03">Description</label>
+        <input type="text" class="form-control" id="validationDefault03" [(ngModel)]="productDetails.description" required name="description" ngModel>
+      </div>
+      <div class="col-md-6 mb-3">
+        <label for="validationDefault04">Rating</label>
+        <select class="custom-select" id="validationDefault04" required name="product_rating" ngModel>
+          <option selected  value="">choose..</option>
+          <option   value="1">1</option>
+          <option   value="2">2</option>
+          <option   value="3">3</option>
+          <option   value="4">4</option>
+          <option   value="5">5</option>
+  
+        </select>
+      </div>
+      </div>
+  
+  
+      <div class="form-row">
+        <div class="col-md-6 mb-3">
+          <label for="validationDefault03">Product Color</label>
+          <input type="text" class="form-control" id="validationDefault03" [(ngModel)]="productDetails.color" required name="product_color" ngModel >
+        </div>
+        <div class="col-md-6 mb-3">
+          <label for="validationDefault04">Is available</label>
+          <select class="custom-select" id="validationDefault04" required>
+            <option selected  value="">yes</option>
+            <option selected  value="">no</option>
+      
+    
+          </select>
+        </div>
+        </div>
+  
+  
+        <div class="form-row">
+          <div class="col-md-6 mb-3">
+            <label for="validationDefault03">product price</label>
+            <input type="text" class="form-control" id="validationDefault03"   [(ngModel)]="productDetails.price"  required name="product_price" ngModel>
+          </div>
+          <div class="col-md-3 mb-3">
+            <label for="validationDefault04">reviews</label>
+            <select class="custom-select" id="validationDefault04" required name="product_reviews" ngModel>
+              
+              <option selected >choose..</option>
+              <option  value="1">1</option>
+              <option  value="2">2</option>
+              <option  value="3">3</option>
+              <option  value="4">4</option>
+              <option  value="5">5</option>
+      
+            </select>
+          </div>
+
+         <div class="col-md-3 mb-3">
+           <label  > img location</label>
+            <input type="text" value="upload file" class=""   required name="product_img" ngModel >
+          </div>
+          
+  
+          </div>
+  
+  <input  type="submit" value="update product" class="btn btn-primary"  >
+  
+  </form>
